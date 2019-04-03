@@ -1,0 +1,11 @@
+package com.example.demo;
+
+public class HelloWordBean {
+	
+	private String message;
+
+	public HelloWordBean(String message) {
+		this.message = message;
+	}
+
+}

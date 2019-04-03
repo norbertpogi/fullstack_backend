@@ -1,0 +1,9 @@
+package com.example.demo;
+
+public class HelloWordBean {
+
+	public HelloWordBean(String string) {
+		// TODO Auto-generated constructor stub
+	}
+
+}
