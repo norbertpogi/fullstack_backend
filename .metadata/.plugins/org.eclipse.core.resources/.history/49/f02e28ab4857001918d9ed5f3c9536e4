@@ -1,0 +1,12 @@
+package com.example.demo;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.example.demo.todo.Todo;
+
+public class TodoHardcodedService {
+	
+	private static List<Todo> todos = new ArrayList<Todo>();
+
+}

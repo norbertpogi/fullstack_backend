@@ -1,0 +1,22 @@
+package com.example.demo;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.example.demo.todo.Todo;
+
+@RestController
+public class TodosResources {
+	
+	@Autowired
+	private TodoHardcodedService todoService;
+	
+	public List<Todo> getAllTOdos(String username) {
+		
+		return todoService.findAll();
+		
+	}
+
+}
